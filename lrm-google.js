@@ -122,7 +122,7 @@
                 iroute.coordinates = iroute.coordinates.concat(points);
               }
               indices.push(indicesSecondary);
-
+              var si,sp;
               for (var j = 0; j < route.legs[i].via_waypoints.length; j++) {
                 si = route.legs[i].via_waypoint[j].step_index;
                 sp = route.legs[i].via_waypoint[j].step_interpolation;
